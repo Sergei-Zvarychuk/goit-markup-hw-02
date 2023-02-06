@@ -1,0 +1,139 @@
+:root {
+    --color-primary: #2E2F42;
+    --color-secondary: #434455;
+    --color-invereted: #ffffff;
+    --color-hover: #404BBF;
+}
+
+/* main page */
+.main-page {
+    background: #FFFFFF;
+}
+
+/* body */
+body {
+    color: var(--color-primary);
+    background-color: var(--color-invereted);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.500;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* top line */
+.top-line {
+    color: var(--color-invereted);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 1.333;
+    text-transform: uppercase;
+}
+
+.header-link {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.500;
+}
+
+.header-link:hover {
+    color: var(--color-hover);
+}
+
+.header-link-adress {
+    color: var(--color-secondary);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.500;
+}
+
+.header-link-adress:hover {
+    color: var(--color-hover)
+}
+
+.header-link-adress:focus {
+    color: var(--color-hover)
+}
+
+/* hero image */
+.hero-image {
+    background-color: var(--color-primary);
+}
+
+.hero-title {
+    color: var(--color-invereted);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.0714;
+    text-align: center;
+}
+
+.button-title {
+    width: 169px;
+    height: 56px;
+    left: 524px;
+    top: 428px;
+    color: var(--color-invereted);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.500;
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.button-portfolio {
+    width: 116px;
+    height: 48px;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    cursor: pointer;
+}
+
+.button-portfolio:hover {
+    background: #404BBF;
+}
+
+/* feature */
+.feature-header {
+    display: none;
+}
+
+.header-title-jun {
+    color: var(--color-primary);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.200;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.header-text {
+    color: var(--color-secondary);
+    font-size: 16px;
+    line-height: 1.500;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+/* headet-title */
+.headet-title {
+    color: var(--color-primary);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1111;
+    letter-spacing: 0.02em;
+    text-align: center;
+}

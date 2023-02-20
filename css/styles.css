@@ -74,6 +74,10 @@ ul {
     color: var(--color-hover)
 }
 
+.main-title {
+    display: none;
+}
+
 /* hero image */
 .hero-image {
     background-color: var(--color-primary);
@@ -97,12 +101,8 @@ ul {
 }
 
 .button-portfolio {
+    color: #4D5AE5;
     background: #F4F4FD;
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
     cursor: pointer;
 }
 
